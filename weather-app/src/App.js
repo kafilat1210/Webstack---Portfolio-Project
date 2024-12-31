@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import axios from 'axios';
 
 function App() {
-    const url = "https://";
+    const url = "https://api.openweathermap.org/data/2.5/weather?q=lagos&appid=2e4b21a881b0390e190e93a28c239a15";
     
   return (
     <div className="App">
