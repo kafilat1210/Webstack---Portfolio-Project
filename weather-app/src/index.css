@@ -56,20 +56,20 @@ h1 {
     flex-direction: column;
 }
 
-.App .top {
+.app .top {
 
     width: 100%;
     margin: 1rem auto;
 }
 
-.App .description {
+.app .description {
     position: relative;
     right: -90%;
     transform-origin: 0 0;
     transform: rotate(269deg);
 }
 
-.App .bottom {
+.app .bottom {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
