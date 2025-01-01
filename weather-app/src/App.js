@@ -13,12 +13,18 @@ function App() {
 		setData(response.data)
 		console.log(response.data)
 	    })
+	    setLocation('')
 	}
     }
   return (
       <div className="app">
 	  <div className="search">
-	      <input type='text' value={location} onChange={event => setLocation(event.target.value)} placeholder="Enter Location">
+	      <input
+		  value={location}
+		  onChange={event => setLocation(event.target.value)}
+		  onKeyPress={searchData}
+		  placeholder="Enter Location"
+		  type="text"/>
 	  </div>
 	<div className="container">
 	    <div className="top">
